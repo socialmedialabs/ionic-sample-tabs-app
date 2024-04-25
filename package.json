@@ -1,0 +1,35 @@
+{
+  "name": "ionic-sample-tabs-app",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc && vite build",
+    "preview": "vite preview",
+    "ionic:build": "npm run build",
+    "ionic:serve": "vite dev --host"
+  },
+  "dependencies": {
+    "@capacitor/android": "6.0.0",
+    "@capacitor/app": "^6.0.0",
+    "@capacitor/core": "^6.0.0",
+    "@capacitor/geolocation": "^6.0.0",
+    "@capacitor/haptics": "^6.0.0",
+    "@capacitor/ios": "6.0.0",
+    "@capacitor/keyboard": "^6.0.0",
+    "@capacitor/status-bar": "^6.0.0",
+    "@ionic/core": "^8.0.0-rc.0",
+    "@ionic/storage": "^4.0.0",
+    "@ionic/vue": "^8.0.0-beta.3",
+    "@ionic/vue-router": "^8.0.0-beta.3",
+    "vue": "^3.4.21",
+    "vue-router": "^4.3.0",
+    "vue-tsc": "^2.0.11"
+  },
+  "devDependencies": {
+    "@capacitor/cli": "^6.0.0",
+    "@vitejs/plugin-vue": "^5.0.4",
+    "vite": "^5.1.6"
+  }
+}

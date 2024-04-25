@@ -1,0 +1,14 @@
+{
+  "appId": "com.sample.app",
+  "appName": "Sample App",
+  "npmClient": "npm",
+  "webDir": "dist",
+  "server": {
+    "androidScheme": "https"
+  },
+  "plugins": {
+    "CapacitorCookies": {
+      "enabled": true
+    }
+  }
+}
